@@ -1,5 +1,5 @@
 /* eslint-disable prefer-rest-params */
-import createHasOwn from './_createHasOwn';
+import createHasOwn from 'celia/es/_createHasOwn';
 
 const { isArray } = Array;
 
@@ -15,9 +15,11 @@ function _className(classes, arg) {
     const argType = typeof arg;
     if (argType === 'string' || argType === 'number') {
       classes[classes.length] = arg;
-    } else if (isArray(arg)) {
+    }
+    else if (isArray(arg)) {
       forArray(classes, arg, arg.length);
-    } else if (argType === 'object') {
+    }
+    else if (argType === 'object') {
       const hasOwn = createHasOwn(arg);
       for (const key in arg) {
         if (hasOwn(arg, key) && arg[key]) {

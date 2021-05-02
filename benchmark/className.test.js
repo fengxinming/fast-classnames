@@ -1,4 +1,4 @@
-const _className = require('../dist/className');
+const _className = require('../dist/cjs');
 const classnames = require('classnames');
 
 // 测试 className
