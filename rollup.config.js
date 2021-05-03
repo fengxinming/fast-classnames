@@ -8,7 +8,7 @@ import camelcase from 'camelcase';
 import { terser } from 'rollup-plugin-terser';
 import pkg from './package.json';
 
-const banner = `/* ${pkg.name}.js v${pkg.version} (c) 2018-${new Date().getFullYear()} `
+const banner = `/* ${pkg.name}.js v${pkg.version} (c) 2021-${new Date().getFullYear()} `
              + 'Jesse Feng Released under the MIT License. */';
 const globalName = camelcase(pkg.name);
 
