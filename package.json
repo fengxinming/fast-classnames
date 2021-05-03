@@ -68,10 +68,6 @@
     "*.js": [
       "eslint --fix",
       "git add"
-    ],
-    "*.md": [
-      "prettier --single-quote --write",
-      "git add"
     ]
   }
 }

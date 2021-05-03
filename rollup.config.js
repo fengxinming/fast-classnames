@@ -23,7 +23,7 @@ export default [{
       verbose: true,
       targets: [
         { src: 'package.json', dest: 'dist' },
-        { src: 'TNPM_README.md', dest: 'dist', rename: 'README.md' },
+        { src: 'README.md', dest: 'dist' },
         { src: 'types/index.d.ts', dest: 'dist' }
       ]
     }),

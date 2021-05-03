@@ -57,6 +57,9 @@ fastClassnames(null, false, 'bar', undefined, 0, 1, { baz: null }, ''); // => 'b
 ```
 
 ## Benchmark
+
 【classnames】 x 319,625 ops/sec ±18.60% (76 runs sampled)
-【className】 x 520,426 ops/sec ±0.31% (92 runs sampled)
-The fastest is 【className】
+
+【fastClassnames】 x 520,426 ops/sec ±0.31% (92 runs sampled)
+
+The fastest is 【fastClassnames】
