@@ -1,1 +1,3 @@
-export default function(...args: any[]): string
+declare function classnames(...args: any[]): string
+
+export default classnames;
